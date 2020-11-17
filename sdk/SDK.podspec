@@ -9,17 +9,17 @@ Pod::Spec.new do |spec|
     text: '(c) 2020 sdk.'
   }
   spec.author             = { "eccentricyan" => "eccentricyan@gmail.com" }
-  spec.source       = { :git => "https://github.com/eccentricyan/achieve.git" }
+  spec.source       = { :git => "git@github.com:eccentricyan/all.git" }
 
   spec.platform          = :ios
   spec.requires_arc      = true
 
   # spec.public_header_files = 'sdk.framework/Headers/*.h'
-  # spec.source_files        = 'sdk.framework/Headers/*.h'
+  spec.source_files        = 'sdk/sdk.framework/Headers/*.h'
   # spec.vendored_frameworks = 'sdk.framework/'
   # spec.source_files  = "Classes", "sdk/**/*.{h,m,swift}"
   # s.resource            = 'Repro.embeddedframework/Resources/ReproSDKResources.bundle'
-  spec.source_files  = "sdk/**/*.{h,m,swift}"
+  # spec.source_files  = "sdk/**/*.{h,m,swift}"
 
   # s.frameworks          = 'SystemConfiguration', 'WebKit'
   # spec.source_files  = "Classes", "sdk/*.{h,m,swift}"
